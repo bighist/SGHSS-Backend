@@ -1,0 +1,18 @@
+{
+  "name": "sghss-backend",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão Hospitalar e de Serviços de Saúde",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "winston": "^3.8.2",
+    "cors": "^2.8.5"
+  }
+}
